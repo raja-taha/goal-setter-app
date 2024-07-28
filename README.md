@@ -27,7 +27,7 @@ The Goal Setter App is a full stack web application built using the MERN stack (
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/goal-setter-app.git
+    git clone https://github.com/raja-taha/goal-setter-app
     cd goal-setter-app
     ```
 
@@ -64,34 +64,10 @@ JWT_SECRET=<Your JWT Secret>
 
 3. Open your browser and go to `http://localhost:3000` to view the application.
 
-## Folder Structure
-
-goal-setter-app/
-│
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.js
-│ └── index.js
-│
-├── server/ # Express backend
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── server.js
-│
-├── .gitignore
-├── package.json
-├── README.md
-└── .env.example
-
 ## Key Endpoints
 
 - **User Authentication:**
-  - `POST /api/users/register` - Register a new user
+  - `POST /api/users/` - Register a new user
   - `POST /api/users/login` - Login an existing user
 
 - **Goal Management:**
